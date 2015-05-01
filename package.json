@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Ember-Deploy assets-adapter for Rackspace Cloudfiles",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -11,11 +10,14 @@
     "build": "ember build",
     "test": "./node_modules/mocha/bin/mocha node_tests/**/*-test.js"
   },
-  "repository": "https://github.com/jschniper/ember-deploy-cloudfiles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jschniper/ember-deploy-cloudfiles"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Joshua Schniper <Joshua.Schniper@gmail.com> (http://www.joshuaschniper.com)",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -47,5 +49,10 @@
     "dive": "^0.4.0",
     "rsvp": "^3.0.0",
     "pkgcloud": "^1.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jschniper/ember-deploy-cloudfiles/issues"
+  },
+  "homepage": "https://github.com/jschniper/ember-deploy-cloudfiles",
+  "main": "index.js"
 }
