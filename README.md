@@ -6,6 +6,17 @@ This is the cloudfiles-adapter implementation to use [cloudfiles](http://www.rac
 This is an unapologetic clone of the s3-adapter with just enough changed to get it working.
 
 TODO:
-- Tests
 - Better error handling
 - Check for container and create it if it doesn't already exist
+
+Sample Usage:
+
+In the config/deploy.js add: 
+
+    assets: {
+       type: 'cloudfiles',
+       region: 'ORD',
+       username: 'rackspace-username',
+       apiKey: process.env['RACKSPACE_API_KEY'],
+       container: 'sample-container'
+     }
