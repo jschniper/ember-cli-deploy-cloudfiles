@@ -13,21 +13,21 @@ var stubConfig = {
     "assets": {
         "username": "username",
         "apiKey": "api-key",
-        "bucket": "bucket-name"
+        "container": "bucket-name"
     }
 }
 
 describe('CloudfilesAdapter', function() {
     it('rejects if no config is passed on initialization', function() {
-        cloudfilesAdapter = new CloudfilesAdapter({
-            ui: new MockUI()
+        var adapter = new CloudfilesAdapter({
+            ui: new MockUI(),                                  
         });
 
-        return expect(cloudfilesAdapter.init()).to.be.rejected;
+        return expect(adapter.upload()).to.be.rejected;
     });
 
     it('rejects if the config is missing a required param', function() {
-        cloudfilesAdapter = new CloudfilesAdapter({
+        var adapter = new CloudfilesAdapter({
             ui: new MockUI(),
             config: {
                 "assets": {
@@ -38,7 +38,7 @@ describe('CloudfilesAdapter', function() {
             }
         });
 
-        return expect(cloudfilesAdapter.init()).to.be.rejected;
+        return expect(adapter.upload()).to.be.rejected;
     });
 
     it('rejects if no ui is passed on initialization', function() {
