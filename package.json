@@ -1,6 +1,6 @@
 {
   "name": "ember-deploy-cloudfiles",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ember-Deploy assets-adapter for Rackspace Cloudfiles",
   "directories": {
     "test": "tests"
@@ -48,7 +48,8 @@
     "core-object": "0.0.2",
     "dive": "^0.4.0",
     "rsvp": "^3.0.0",
-    "pkgcloud": "^1.0.0"
+    "pkgcloud": "^1.0.0",
+    "silent-error": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/jschniper/ember-deploy-cloudfiles/issues"
