@@ -17,7 +17,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Joshua Schniper <Joshua.Schniper@gmail.com> (http://www.joshuaschniper.com)",
+  "author": "ajk <ajk@ajk.fi>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
