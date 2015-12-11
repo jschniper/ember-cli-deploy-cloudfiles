@@ -1,7 +1,7 @@
 {
-  "name": "ember-deploy-cloudfiles",
+  "name": "ember-cli-deploy-cloudfiles",
   "version": "0.0.5",
-  "description": "Ember-Deploy assets-adapter for Rackspace Cloudfiles",
+  "description": "An ember-cli-deploy plugin to upload to Rackspace's Cloud Files",
   "directories": {
     "test": "tests"
   },
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jschniper/ember-deploy-cloudfiles"
+    "url": "https://github.com/Darep/ember-cli-deploy-cloudfiles"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -52,8 +52,8 @@
     "silent-error": "^1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/jschniper/ember-deploy-cloudfiles/issues"
+    "url": "https://github.com/Darep/ember-cli-deploy-cloudfiles/issues"
   },
-  "homepage": "https://github.com/jschniper/ember-deploy-cloudfiles",
+  "homepage": "https://github.com/Darep/ember-cli-deploy-cloudfiles",
   "main": "index.js"
 }

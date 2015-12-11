@@ -1,6 +1,6 @@
-# ember-deploy-cloudfiles 
+# ember-cli-deploy-cloudfiles
 
-[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-deploy-cloudfiles.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-cloudfiles.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 
 This is the cloudfiles-adapter implementation to use [cloudfiles](http://www.rackspace.com/cloud/files) with
 [ember-deploy](https://github.com/levelbossmike/ember-deploy).
