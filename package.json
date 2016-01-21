@@ -12,12 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Darep/ember-cli-deploy-cloudfiles"
+    "url": "https://github.com/jschniper/ember-cli-deploy-cloudfiles"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "ajk <ajk@ajk.fi>",
+  "author": "Joshua Schniper <Joshua.Schniper@gmail.com> (http://www.joshuaschniper.com)",
+  "contributors": [
+    {"name": "Antti-Jussi Kovalainen", "url": "http://ajk.fi", "email": "ajk@ajk.fi"}
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -58,8 +61,8 @@
     "pkgcloud": "1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/Darep/ember-cli-deploy-cloudfiles/issues"
+    "url": "https://github.com/jschniper/ember-cli-deploy-cloudfiles/issues"
   },
-  "homepage": "https://github.com/Darep/ember-cli-deploy-cloudfiles",
+  "homepage": "https://github.com/jschniper/ember-cli-deploy-cloudfiles",
   "main": "index.js"
 }
