@@ -32,7 +32,10 @@ ENV.cloudfiles = {
   region: '<your-rackspace-region>',
   username: '<your-rackspace-username>',
   apiKey: '<your-rackspace-api-key>',
-  container: '<your-rackspace-container-name>'
+  container: '<your-rackspace-container-name>',
+  headers: {
+    'header-name': 'header-value'
+  }
 }
 ```
 
@@ -81,6 +84,12 @@ The Rackspace Cloud Files container that the files will be uploaded to.
 ### region (`required`)
 
 The Rackspace region you are working on.
+
+*Default:* `undefined`
+
+### headers 
+
+The Rackspace Cloud Files headers for the uploaded file.
 
 *Default:* `undefined`
 

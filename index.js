@@ -17,6 +17,7 @@ module.exports = {
         enabled: true,
         filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2}',
         prefix: '',
+        headers: {},
 
         distDir: function(context) {
           return context.distDir;
@@ -55,6 +56,7 @@ module.exports = {
         var container     = this.readConfig('container');
         var prefix        = this.readConfig('prefix');
         var manifestPath  = this.readConfig('manifestPath');
+        var headers       = this.readConfig('headers');
 
         var filesToUpload = distFiles.filter(minimatch.filter(filePattern, { matchBase: true }));
 
@@ -67,7 +69,8 @@ module.exports = {
           filePaths: filesToUpload,
           prefix: prefix,
           container: container,
-          manifestPath: manifestPath
+          manifestPath: manifestPath,
+          headers: headers
         };
 
         this.log('preparing to upload to CloudFiles container `' + container + '`', { verbose: true });
